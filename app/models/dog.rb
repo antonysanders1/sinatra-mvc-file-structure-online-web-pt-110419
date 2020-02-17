@@ -18,7 +18,6 @@ class Dog
     dog.breed = breed
     dog.age = age
     @@all << dog
-    binding.pry
   end
   
   
