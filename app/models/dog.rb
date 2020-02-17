@@ -12,6 +12,13 @@ class Dog
     @@all << self
   end 
   
+    def self.create(name)
+    dog = self.new
+    person.name = name
+    @@all << person
+  end
+  
+  
   def self.all
     binding.pry 
     @@all
