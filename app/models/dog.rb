@@ -12,7 +12,8 @@ class Dog
     @@all << self
   end 
   
-    def self.create(name, breed, age)
+  def self.create(name, breed, age)
+    binding.pry
     dog = self.new
     dog.name = name
     dog.breed = breed
@@ -22,7 +23,7 @@ class Dog
   
   
   def self.all
-    binding.pry 
+   
     @@all
   end 
   
