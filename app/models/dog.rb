@@ -13,6 +13,7 @@ class Dog
   end 
   
   def self.create(name, breed, age)
+    binding.pry
     dog = self.new
     dog.name = name
     dog.breed = breed
