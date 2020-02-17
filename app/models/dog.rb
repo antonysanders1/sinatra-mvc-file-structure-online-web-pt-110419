@@ -2,7 +2,7 @@ class Dog
   
   attr_accessor :name, :breed, :age 
   
-  @@dogs = []
+  @@all = []
   
   def initialize(name, breed, age)
     #binding.pry
@@ -11,7 +11,7 @@ class Dog
     @age = age 
   end 
   
-  
+  def self.
   
   
   
