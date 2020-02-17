@@ -12,10 +12,12 @@ class Dog
     @@all << self
   end 
   
-    def self.create(name)
+    def self.create(name, breed, age)
     dog = self.new
-    person.name = name
-    @@all << person
+    dog.name = name
+    dog.breed = breed
+    dog.age = age
+    @@all << dog
   end
   
   
