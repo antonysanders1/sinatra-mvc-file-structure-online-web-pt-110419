@@ -5,14 +5,13 @@ class Dog
   @@dogs = []
   
   def initialize(name, breed, age)
+    binding.pry
     @name = name
     @breed = breed 
     @age = age 
   end 
   
-  def self.create
-    
-  end
+
   
   
   
