@@ -5,7 +5,7 @@ class Dog
   @@dogs = []
   
   def initialize(name, breed, age)
-    binding.pry
+    #binding.pry
     @name = name
     @breed = breed 
     @age = age 
